@@ -1,0 +1,7 @@
+from sys import argv
+script, file1 = argv 
+
+open = file1.open('w')
+open.write("Python is a great language to learn")
+
+print "Finished"
